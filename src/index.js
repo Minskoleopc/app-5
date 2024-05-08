@@ -4,6 +4,7 @@ import App from './App';
 import Cone from './Cone';
 import Cones from './Cones'
 import Conec from './Conec';
+import CounterC  from './CounterC';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,5 +14,7 @@ root.render(
     <Cone></Cone>
     <Cones></Cones>
     <Conec name = "chinmay"></Conec>
+    <CounterC></CounterC>
+    
   </React.StrictMode>
 );
