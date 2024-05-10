@@ -5,16 +5,18 @@ import Cone from './Cone';
 import Cones from './Cones'
 import Conec from './Conec';
 import CounterC  from './CounterC';
+import CounterObj from './CounterObj';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App />
     <Cone></Cone>
     <Cones></Cones>
     <Conec name = "chinmay"></Conec>
-    <CounterC></CounterC>
+    <CounterC></CounterC> */}
+    <CounterObj/>
     
   </React.StrictMode>
 );
